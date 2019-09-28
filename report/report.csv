@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admin,Chrome 77.0.3865.90,,,2019-09-26 10:46:16,2019-09-26 10:46:23,7.001s,INCOMPLETE
+,,,,,,,
+Test Cases/UI test cases/Admin change account password successfully,Chrome 77.0.3865.90,,,2019-09-26 10:46:16,2019-09-26 10:46:23,6.676s,PASSED
+"openBrowser("""")",Chrome 77.0.3865.90,,,2019-09-26 10:46:16,2019-09-26 10:46:19,3.328s,PASSED
+"navigateToUrl(""http://192.168.122.33:8000/en/"")",Chrome 77.0.3865.90,,,2019-09-26 10:46:19,2019-09-26 10:46:20,1.062s,PASSED
+"click(findTestObject(""Object Repository/Page_Saleor e-commerce/a_Log in""))",Chrome 77.0.3865.90,,,2019-09-26 10:46:20,2019-09-26 10:46:21,0.638s,PASSED
+"setText(findTestObject(""Object Repository/Page_Log in  Saleor e-commerce/input_Email_username""), ""admin@example.com"")",Chrome 77.0.3865.90,,,2019-09-26 10:46:21,2019-09-26 10:46:21,0.360s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Log in  Saleor e-commerce/input_Password_password""), ""RAIVpflpDOg="")",Chrome 77.0.3865.90,,,2019-09-26 10:46:21,2019-09-26 10:46:22,0.219s,PASSED
+"click(findTestObject(""Object Repository/Page_Log in  Saleor e-commerce/button_Log in""))",Chrome 77.0.3865.90,,,2019-09-26 10:46:22,2019-09-26 10:46:22,0.681s,PASSED
+closeBrowser(),Chrome 77.0.3865.90,,,2019-09-26 10:46:22,2019-09-26 10:46:23,0.143s,PASSED
