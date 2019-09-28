@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://192.168.122.33:8000/en/')
+WebUI.navigateToUrl('http://192.168.1.8:8000/en/')
 
 WebUI.click(findTestObject('Object Repository/Page_Saleor e-commerce/a_Log in'))
 
